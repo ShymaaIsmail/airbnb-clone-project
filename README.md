@@ -310,3 +310,24 @@ Here's a concise version of the **“Project Roles and Responsibilities”** sec
 | **DevOps Engineers**| Set up deployment pipelines, manage infrastructure, and ensure uptime.                |
 | **Product Owner**   | Defines product goals, prioritizes features, and aligns development with user needs.  |
 | **Scrum Master**    | Facilitates agile processes, removes blockers, and ensures team collaboration.        |
+
+---
+
+## UI Component Patterns
+
+To maintain a consistent, reusable, and scalable design system, the following core UI components will be implemented:
+
+### 🧭 Navbar
+- Includes logo, search bar, user menu, and navigation links.
+- Fully responsive for desktop and mobile views.
+
+### 🏘️ Property Card
+- Displays a thumbnail image, location, price, and rating.
+- Includes a favorite button for saving properties.
+- Designed for grid layout responsiveness.
+
+### 📜 Footer
+- Contains site navigation links, company info, and social media icons.
+- Displays copyright.
+
+Each component will be built with reusability in mind, supporting consistency across pages and improving development efficiency.
