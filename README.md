@@ -126,4 +126,38 @@ Tracks payments made for bookings.
 
 - A payment is linked to one booking.
 
+
+**🛠️ Feature Breakdown**
+
+This section outlines the core features implemented in the Airbnb Clone project, demonstrating how each contributes to the overall functionality and user experience.
+
+**1. API Documentation** 
+
+The project follows the OpenAPI standard for documenting backend APIs, making them easy to understand and integrate. Django REST Framework is used for building RESTful APIs, while GraphQL provides a more flexible, client-driven way to fetch and manipulate data.
+
+**2. User Authentication**
+
+Users can register, log in, and manage their profiles through secure authentication endpoints (/users/, /users/{user_id}/). This feature is fundamental to managing access and personalizing user experience across the platform.
+
+**3. Property Management**
+
+Authenticated users can list, update, view, and delete properties via endpoints like /properties/ and /properties/{property_id}/. This allows hosts to manage their rental listings effectively.
+
+**4. Booking System**
+
+Users can make reservations, modify bookings, and handle check-in/check-out processes through the /bookings/ endpoints. This system is central to enabling transactions between guests and hosts.
+
+**5. Payment Processing**
+
+Through the /payments/ endpoint, the platform securely processes transactions related to bookings. This ensures a seamless and trustworthy payment experience for both hosts and guests.
+
+**6. Review System**
+
+The /reviews/ endpoints allow users to post feedback and view reviews on properties. This builds trust within the community and helps users make informed booking decisions.
+
+**7. Database Optimizations**
+
+Performance enhancements such as indexing and caching are implemented to ensure fast access to frequently used data. These optimizations reduce server load and improve the responsiveness of the application.
+
+
 </details>
