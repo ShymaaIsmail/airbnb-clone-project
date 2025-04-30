@@ -226,7 +226,12 @@ CI/CD is important for this project because it:
   <summary><strong>ALX- ProDev-frontend Program</strong></summary>
 
 ## 🏆 Project Goals
-This project is a full-stack clone of the popular accommodation booking platform AirBnB. The goal is to build a functional web application that allows users to browse property listings, view detailed property information, and complete bookings. The project will cover frontend development, backend APIs, database design, and deployment.
+This project is a full-stack clone of the popular accommodation booking platform AirBnB. The goal is to build a functional web application that allows users to:
+- Browse property listings
+- View detailed property information
+- Complete bookings
+
+The application will incorporate a responsive frontend, robust backend APIs,well-structured database design, and deployment to a production environment.
 
 ## ⚙️ Technology Stack
 
@@ -234,4 +239,57 @@ This project is a full-stack clone of the popular accommodation booking platform
 - **Version Control:** Git and GitHub
 - **Design Tools:** Figma for UI/UX design
 
-</details>
+## UI/UX Design Planning
+
+### Design Goals
+- Create an intuitive and seamless booking flow
+- Maintain visual consistency across all views
+- Ensure fast loading times for better user experience
+- Prioritize mobile responsiveness (mobile-first approach)
+
+### Key Features
+- Property search and filtering
+- Detailed property view with booking options
+- Secure checkout process
+- User authentication and session management
+
+### Primary Pages
+
+| Page                   | Description                                                                 |
+|------------------------|-----------------------------------------------------------------------------|
+| **Property Listing View** | Grid display of available properties with search and filter options         |
+| **Listing Detailed View** | Detailed property page showing images, description, location, and booking form |
+| **Simple Checkout View**  | Minimal, secure payment and booking confirmation page                     |
+
+### Importance of User-Friendly Design
+A well-designed booking system reduces user friction, increases conversions, and boosts customer satisfaction. User-friendly navigation, clean and intuitive interfaces, and responsive design ensure the platform is accessible and efficient on all devices.
+
+---
+
+### Figma Design Specifications
+
+#### 🎨 Color Styles
+- **Primary Color**: `#FF5A5F`
+- **Secondary Color**: `#008489`
+- **Background Color**: `#FFFFFF`
+- **Main Text Color**: `#222222`
+- **Secondary Text Color**: `#717171`
+
+#### 🔤 Typography
+- **Primary Font Family**: Circular
+- **Font Weights**:
+  - **Bold**: 700 (Headings)
+  - **Medium**: 500 (Body)
+  - **Book**: 400 (Secondary Text)
+- **Font Sizes**:
+  - **Headings**: 24px – 32px
+  - **Body Text**: 16px
+  - **Secondary Text**: 14px
+
+#### 🧠 Importance of Identifying Design Properties
+
+Understanding design properties such as colors, typography, spacing, and layout in a Figma mockup is essential for:
+- **Ensuring Consistency**: Following defined design specifications maintains a uniform visual experience across the app.
+- **Improving Collaboration**: Clear design tokens help frontend developers, designers, and QA work in sync.
+- **Efficiency in Development**: Reusable UI components can be more easily created when style rules are predefined.
+- **Enhancing Accessibility and UX**: Proper contrast, font sizes, and spacing help meet accessibility standards and ensure a smooth user journey.
