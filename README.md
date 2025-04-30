@@ -293,3 +293,20 @@ Understanding design properties such as colors, typography, spacing, and layout 
 - **Improving Collaboration**: Clear design tokens help frontend developers, designers, and QA work in sync.
 - **Efficiency in Development**: Reusable UI components can be more easily created when style rules are predefined.
 - **Enhancing Accessibility and UX**: Proper contrast, font sizes, and spacing help meet accessibility standards and ensure a smooth user journey.
+
+Here's a concise version of the **“Project Roles and Responsibilities”** section to add to your `README.md`:
+
+---
+
+## Project Roles and Responsibilities
+
+| **Role**            | **Responsibilities**                                                                 |
+|---------------------|---------------------------------------------------------------------------------------|
+| **Project Manager** | Oversees project timeline, coordinates tasks, and ensures timely delivery.            |
+| **Frontend Developers** | Build responsive UI components and ensure smooth user interactions.              |
+| **Backend Developers**  | Develop APIs, manage data flow, and handle server-side logic.                    |
+| **Designers**       | Create mockups, maintain visual consistency, and improve user experience.             |
+| **QA/Testers**      | Write test cases, find bugs, and ensure functionality meets requirements.             |
+| **DevOps Engineers**| Set up deployment pipelines, manage infrastructure, and ensure uptime.                |
+| **Product Owner**   | Defines product goals, prioritizes features, and aligns development with user needs.  |
+| **Scrum Master**    | Facilitates agile processes, removes blockers, and ensures team collaboration.        |
