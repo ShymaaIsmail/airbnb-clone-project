@@ -160,4 +160,51 @@ The /reviews/ endpoints allow users to post feedback and view reviews on propert
 Performance enhancements such as indexing and caching are implemented to ensure fast access to frequently used data. These optimizations reduce server load and improve the responsiveness of the application.
 
 
+---
+
+## 🔐 API Security
+
+Securing the backend APIs is critical to protecting sensitive user data, ensuring trust, and maintaining the integrity of the system. The following security measures have been or will be implemented across the Airbnb Clone project:
+
+### 1. **Authentication**
+Only registered users can access protected endpoints using secure token-based authentication (e.g., JWT or session-based tokens). This ensures that each request is tied to a verified identity, reducing unauthorized access.
+
+📌 *Why it matters:* Prevents impersonation and unauthorized access to personal user data and actions like bookings and payments.
+
+---
+
+### 2. **Authorization**
+Role-based access control (RBAC) is used to differentiate permissions between guests, hosts, and admins. For example, only hosts can manage property listings, and users can only edit their own data.
+
+📌 *Why it matters:* Ensures users can only perform actions they are permitted to, reducing the risk of misuse or data tampering.
+
+---
+
+### 3. **Rate Limiting**
+Limits the number of requests a user or IP address can make within a certain timeframe. This helps prevent brute-force attacks and API abuse.
+
+📌 *Why it matters:* Protects against denial-of-service (DoS) attacks and reduces load on the server from malicious traffic.
+
+---
+
+### 4. **Input Validation and Sanitization**
+All input is validated and sanitized to prevent injection attacks (e.g., SQL injection, XSS).
+
+📌 *Why it matters:* Ensures the integrity of data and prevents attackers from injecting malicious code or manipulating the database.
+
+---
+
+### 5. **Secure Payment Handling**
+Payment information is processed through secure gateways (e.g., Stripe) using HTTPS and tokenized transactions.
+
+📌 *Why it matters:* Safeguards financial information and ensures users can trust the platform when making transactions.
+
+---
+
+### 6. **HTTPS Enforcement**
+All API traffic is encrypted using HTTPS to prevent man-in-the-middle (MITM) attacks.
+
+📌 *Why it matters:* Protects sensitive data during transmission, such as login credentials and payment details.
+
+---
 </details>
