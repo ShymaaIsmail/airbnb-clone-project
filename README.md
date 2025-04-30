@@ -239,7 +239,7 @@ The application will incorporate a responsive frontend, robust backend APIs,well
 - **Version Control:** Git and GitHub
 - **Design Tools:** Figma for UI/UX design
 
-## UI/UX Design Planning
+## 🧩 UI/UX Design Planning
 
 ### Design Goals
 - Create an intuitive and seamless booking flow
@@ -262,11 +262,11 @@ The application will incorporate a responsive frontend, robust backend APIs,well
 | **Simple Checkout View**  | Minimal, secure payment and booking confirmation page                     |
 
 ### Importance of User-Friendly Design
-A well-designed booking system reduces user friction, increases conversions, and boosts customer satisfaction. User-friendly navigation, clean and intuitive interfaces, and responsive design ensure the platform is accessible and efficient on all devices.
+📌 *Why it matters:* A well-designed booking system reduces user friction, increases conversions, and boosts customer satisfaction. User-friendly navigation, clean and intuitive interfaces, and responsive design ensure the platform is accessible and efficient on all devices.
 
 ---
 
-### Figma Design Specifications
+### 🖍️ Figma Design Specifications
 
 #### 🎨 Color Styles
 - **Primary Color**: `#FF5A5F`
@@ -288,17 +288,15 @@ A well-designed booking system reduces user friction, increases conversions, and
 
 #### 🧠 Importance of Identifying Design Properties
 
-Understanding design properties such as colors, typography, spacing, and layout in a Figma mockup is essential for:
+📌 *Why it matters:* Understanding design properties such as colors, typography, spacing, and layout in a Figma mockup is essential for:
 - **Ensuring Consistency**: Following defined design specifications maintains a uniform visual experience across the app.
 - **Improving Collaboration**: Clear design tokens help frontend developers, designers, and QA work in sync.
 - **Efficiency in Development**: Reusable UI components can be more easily created when style rules are predefined.
 - **Enhancing Accessibility and UX**: Proper contrast, font sizes, and spacing help meet accessibility standards and ensure a smooth user journey.
 
-Here's a concise version of the **“Project Roles and Responsibilities”** section to add to your `README.md`:
-
 ---
 
-## Project Roles and Responsibilities
+## 🧑‍💻 Project Roles and Responsibilities
 
 | **Role**            | **Responsibilities**                                                                 |
 |---------------------|---------------------------------------------------------------------------------------|
@@ -313,7 +311,7 @@ Here's a concise version of the **“Project Roles and Responsibilities”** sec
 
 ---
 
-## UI Component Patterns
+## 🧱 UI Component Patterns
 
 To maintain a consistent, reusable, and scalable design system, the following core UI components will be implemented:
 
